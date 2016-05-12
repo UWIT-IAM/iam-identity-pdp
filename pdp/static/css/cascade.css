@@ -137,6 +137,18 @@ ul.data-list li {
 	margin-top: 0px;
 }
 
+.modal-body {
+    width: 500px;
+    height: 280px;
+}
+
+@media screen and (max-width: 600px) {
+    .modal-body {
+        width: 300px;
+        height: 350px;
+    }
+}
+
 
 /* .modal-body h1 {
     padding-top: 20px;
